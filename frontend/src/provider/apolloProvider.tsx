@@ -2,10 +2,10 @@
 
 import type { ReactNode } from "react";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
-import { SUBGRAPH_URL } from "../../constants";
+import { SUBGRAPH_PROD_URL } from "../../constants";
 
 const client = new ApolloClient({
-  uri: SUBGRAPH_URL,
+  uri: SUBGRAPH_PROD_URL,
   cache: new InMemoryCache(),
 });
 

@@ -14,6 +14,7 @@ import { type ReactNode, useState } from "react";
 import { type State, WagmiProvider } from "wagmi";
 
 import { getConfig } from "./wagmi";
+import "globalthis/polyfill";
 import ApolloClientProvider from "./provider/apolloProvider";
 
 const config = getConfig();

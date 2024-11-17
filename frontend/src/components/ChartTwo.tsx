@@ -55,7 +55,7 @@ const ChartTwo: React.FC = () => {
       fontSize: "14px",
 
       markers: {
-        radius: 99,
+        size: 99,
       },
     },
     fill: {

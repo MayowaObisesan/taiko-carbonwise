@@ -1,0 +1,10 @@
+type PlasticDeposited @entity(immutable: true) {
+  id: Bytes!
+  depositor: Bytes! # address
+  _qtyrecycled: BigInt! # uint256
+  timeRecycled: BigInt! # uint256
+  tokenQty: BigInt! # uint256
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
